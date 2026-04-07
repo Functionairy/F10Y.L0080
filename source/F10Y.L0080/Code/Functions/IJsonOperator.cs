@@ -17,7 +17,7 @@ namespace F10Y.L0080
 
         /// <inheritdoc cref="L0060.IJsonOperator"/>
         [Ignore]
-        public L0060.IJsonOperator _L0060 => L0060.JsonOperator.Instance;
+        L0060.IJsonOperator _L0060 => L0060.JsonOperator.Instance;
 
 #pragma warning restore IDE1006 // Naming Styles
     }
